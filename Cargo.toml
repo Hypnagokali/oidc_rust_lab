@@ -1,0 +1,8 @@
+[package]
+name = "oidc_lab"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+openidconnect = {version = "4.0.0", features = ["reqwest"]}
+actix-web = "4.9.0"
